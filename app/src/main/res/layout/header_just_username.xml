@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:achuan="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true">
+        <com.example.achuan.studentmanagersystem.Uitl.CircleImageView
+            android:id="@+id/id_iv_my_header"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/myheader"
+            achuan:border_width="2dp"
+            />
+        <TextView
+            android:id="@+id/id_tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignTop="@+id/id_iv_my_header"
+            android:layout_toEndOf="@+id/id_iv_my_header"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="林宇川"
+            android:textStyle="normal"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/id_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/id_iv_my_header"
+            android:layout_below="@+id/id_iv_my_header"
+            android:text="http://blog.csdn.net/u013275197"
+            android:textSize="14sp"/>
+</RelativeLayout>

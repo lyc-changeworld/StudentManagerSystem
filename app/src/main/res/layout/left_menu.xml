@@ -1,0 +1,18 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:achuan="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/id_nv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        achuan:headerLayout="@layout/header_just_username"
+        achuan:menu="@menu/menu_drawer"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>
