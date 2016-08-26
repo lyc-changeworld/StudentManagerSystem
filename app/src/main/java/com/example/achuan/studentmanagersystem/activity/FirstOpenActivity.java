@@ -1,10 +1,12 @@
-package com.example.achuan.studentmanagersystem;
+package com.example.achuan.studentmanagersystem.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.achuan.studentmanagersystem.R;
 
 /**
  * Created by achuan on 16-5-7.

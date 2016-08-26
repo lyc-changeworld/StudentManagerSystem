@@ -1,4 +1,4 @@
-package com.example.achuan.studentmanagersystem;
+package com.example.achuan.studentmanagersystem.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.example.achuan.studentmanagersystem.DataClass.Teacher;
 import com.example.achuan.studentmanagersystem.MySQLite.MyDBManager;
 import com.example.achuan.studentmanagersystem.MySQLite.MyDatabaseHelper;
+import com.example.achuan.studentmanagersystem.R;
 import com.example.achuan.studentmanagersystem.Uitl.MyTopbar;
 
 public class loginActivity extends AppCompatActivity {

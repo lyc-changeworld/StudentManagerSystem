@@ -1,4 +1,4 @@
-package com.example.achuan.studentmanagersystem.DataClass;
+package com.example.achuan.studentmanagersystem.model;
 
 /**
  * Created by achuan on 16-5-5.

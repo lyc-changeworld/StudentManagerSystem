@@ -1,12 +1,12 @@
-package com.example.achuan.studentmanagersystem.MySQLite;
+package com.example.achuan.studentmanagersystem.db;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.achuan.studentmanagersystem.DataClass.Student;
-import com.example.achuan.studentmanagersystem.DataClass.Teacher;
+import com.example.achuan.studentmanagersystem.model.Student;
+import com.example.achuan.studentmanagersystem.model.Teacher;
 
 import java.util.ArrayList;
 import java.util.List;

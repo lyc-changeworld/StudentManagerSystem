@@ -1,4 +1,4 @@
-package com.example.achuan.studentmanagersystem;
+package com.example.achuan.studentmanagersystem.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.widget.TextView;
 
 import com.example.achuan.studentmanagersystem.DataClass.Student;
+import com.example.achuan.studentmanagersystem.R;
 import com.example.achuan.studentmanagersystem.Uitl.MyTopbar;
 
 

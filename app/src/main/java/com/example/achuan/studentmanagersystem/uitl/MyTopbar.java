@@ -1,4 +1,4 @@
-package com.example.achuan.studentmanagersystem.Uitl;
+package com.example.achuan.studentmanagersystem.uitl;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;

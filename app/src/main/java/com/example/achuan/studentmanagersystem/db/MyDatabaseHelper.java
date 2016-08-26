@@ -1,4 +1,4 @@
-package com.example.achuan.studentmanagersystem.MySQLite;
+package com.example.achuan.studentmanagersystem.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

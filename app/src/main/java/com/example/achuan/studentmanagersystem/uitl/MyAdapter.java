@@ -1,4 +1,4 @@
-package com.example.achuan.studentmanagersystem.Uitl;
+package com.example.achuan.studentmanagersystem.uitl;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.achuan.studentmanagersystem.DataClass.Student;
+import com.example.achuan.studentmanagersystem.model.Student;
 import com.example.achuan.studentmanagersystem.R;
 
 import java.util.List;

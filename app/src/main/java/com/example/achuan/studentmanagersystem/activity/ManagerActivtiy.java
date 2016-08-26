@@ -1,4 +1,4 @@
-package com.example.achuan.studentmanagersystem;
+package com.example.achuan.studentmanagersystem.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.achuan.studentmanagersystem.DataClass.Student;
 import com.example.achuan.studentmanagersystem.MySQLite.MyDBManager;
+import com.example.achuan.studentmanagersystem.R;
 import com.example.achuan.studentmanagersystem.Uitl.CircleImageView;
 import com.example.achuan.studentmanagersystem.Uitl.MyAdapter;
 import com.example.achuan.studentmanagersystem.Uitl.MyTopbar;

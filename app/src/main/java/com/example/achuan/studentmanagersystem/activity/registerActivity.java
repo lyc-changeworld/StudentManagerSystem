@@ -1,4 +1,4 @@
-package com.example.achuan.studentmanagersystem;
+package com.example.achuan.studentmanagersystem.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.achuan.studentmanagersystem.R;
 import com.example.achuan.studentmanagersystem.Uitl.MyTopbar;
 
 /**

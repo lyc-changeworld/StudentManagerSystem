@@ -9,12 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!--activity注册-->
-        <activity android:name=".ShowStudentInfo"></activity>
-        <activity android:name=".EditorStudentActivity"></activity>
-        <activity android:name=".ManagerActivtiy"></activity>
-        <activity android:name=".registerActivity"></activity>
-        <activity android:name=".loginActivity"></activity>
-        <activity android:name=".FirstOpenActivity">
+        <activity android:name=".acitivity.ShowStudentInfo"></activity>
+        <activity android:name=".acitivity.EditorStudentActivity"></activity>
+        <activity android:name=".acitivity.ManagerActivtiy"></activity>
+        <activity android:name=".acitivity.registerActivity"></activity>
+        <activity android:name=".acitivity.loginActivity"></activity>
+        <activity android:name=".acitivity.FirstOpenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
